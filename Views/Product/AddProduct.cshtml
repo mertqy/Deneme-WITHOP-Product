@@ -1,0 +1,22 @@
+﻿@model EntityLayer.Concrete.Product
+
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_UiLayout.cshtml";
+}
+
+<div class="form-group">
+    <label>Ürün Adı</label>
+    <input type="text" name="Name" class="form-control" />
+</div>
+<div class="form-group">
+    <label>Ürün Fiyatı</label>
+    <input type="text" name="Price" class="form-control" />
+</div>
+<div class="form-group">
+    <label>Stok Sayısı</label>
+    <input type="text" name="Stock" class="form-control" />
+</div>
+<div class="form-group">
+    <input type="submit" value="Ekle" class="btn btn-success" />
+</div>
